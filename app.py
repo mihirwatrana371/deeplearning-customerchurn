@@ -274,3 +274,4 @@ if raw_df is not None:
             else:
                 st.success(f"Prediction: **Not Churn** (Probability: {prediction_proba:.2f})", icon="✅")
                 st.info("This customer is likely to stay. No immediate action is required.")
+
